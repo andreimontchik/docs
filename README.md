@@ -1,21 +1,21 @@
-# [Solana](solana)
+# [Solana](Solana.md)
 
-# [Linux](linux)
+# [Linux](Linux.md)
 
-# [Rust](rust)
+# [Rust](Rust.md)
 
-# [VSCode](vscode)
+# [VSCode](VSCode.md)
 
-# [Git](git)
+# [Git](Git.md)
 
-# [JavaScript](JavaScript)
+# [JavaScript](JavaScript.md)
 
-# [Python](Python)
+# [Python](Python.md)
 
-# [Docker](docker)
+# [Docker](Docker.md)
 
-# [StatsD](statsd)
+# [StatsD](statsd.md)
 
-# [Graphite](graphite)
+# [Graphite](Graphite.md)
 
-# [Programming Concepts](Programming-Concepts)
+# [Programming Concepts](Programming-Concepts.md)
