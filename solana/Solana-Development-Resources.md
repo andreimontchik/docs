@@ -39,7 +39,7 @@
 
 # [Solana On-Chain Programs](Solana-On‐Chain-Programs.md)
 
-- [Anchor](../Anchor.md)
+- [Anchor](Anchor.md)
 
 # [Solana Wallet](Solana-Wallet.md)
 

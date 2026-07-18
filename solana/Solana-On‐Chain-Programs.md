@@ -5,7 +5,7 @@
   - [Composable on-chain program examples](https://github.com/solana-developers/program-examples)
 - [Solana Cookbook](https://solanacookbook.com/references/programs.html)
 - [Deploy Solana program with CLI](https://docs.solanalabs.com/cli/examples/deploy-a-program)
-- [Anchor](Anchor)
+- [Anchor](Anchor.md)
 - [Sealevel Attacks and mitigation examples](https://github.com/coral-xyz/sealevel-attacks/tree/master)
 
 # Info
@@ -40,7 +40,7 @@
 1. Use the [Solana Developers Program Examples](https://solana.com/docs/programs/examples) and [SPL Examples](https://github.com/solana-labs/solana-program-library/tree/master/examples/rust) for additional details.
    - [Hello Solana](https://github.com/solana-developers/program-examples/tree/main/basics/hello-solana)
    - [Custom instructions](https://github.com/solana-developers/program-examples/tree/main/basics/processing-instructions)
-1. [Transactions](Solana-Transactions)
+     [Transactions](Solana-Transactions.md)
 1. [Cross-program Invocation aka CPI](https://solana.com/docs/core/cpi)
    - [CPI in Solana Cookbook](https://solanacookbook.com/references/programs.html#how-to-do-cross-program-invocation)
    - [CPI program examples](https://github.com/solana-developers/program-examples/tree/main/basics/cross-program-invocation)
@@ -61,6 +61,7 @@
    1. `solana-keygen pubkey <PAYER KEYPAIR>`
    1. `solana airdrop 10 <PAYER PUBKEY>`
 1. Run the`solana program deploy -ul --program-id <PROGRAM KEYPAIR> --keypair <PAYER KEYPAIR> <PROGRAM BINARY>` command to deploy to specific cluster. It will return the program id. Example:
+
    ```
    solana program deploy -ul --program-id ~/work/src/public/solana/programs/keypairs/ping.json --keypair ~/work/src/public/solana/programs/keypairs/payer.json ~/work/src/public/solana/programs/target/deploy/ping.so
    ```

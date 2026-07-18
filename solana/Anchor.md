@@ -28,8 +28,8 @@
 # [Installation](https://www.anchor-lang.com/docs/installation)
 
 1. [Install Rust](../../public/wiki/rust#install)
-1. [Install Solana](solana/Install-Solana.md)
-1. Install Yarn, follow the [Solana Web3.js Client installation](Solana-web3.js-Client#installation) steps.
+1. [Install Solana](Install-Solana.md)
+1. Install Yarn, follow the [Solana Web3.js Client installation](Solana-web3.js-Client.md#installation) steps.
 1. Install [Anchor Version Manager](https://www.anchor-lang.com/docs/avm) a.k.a. AVM: `cargo install --git https://github.com/coral-xyz/anchor avm --locked --force`.
    - Install additional dependencies in case if the AVM install fails: `sudo apt-get update && sudo apt-get upgrade && sudo apt-get install -y pkg-config build-essential libudev-dev libssl-dev`.
 1. Confirm that AVM is installed successfully: `avm --version`.
