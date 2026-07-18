@@ -13,10 +13,10 @@
 - [Solana Forums](https://forum.solana.com/)
 - [Solana StackExchange](https://solana.stackexchange.com/)
 - [Solana Programs](https://spl.solana.com/)
-  - [SFDP](SFDP.md)
+  - [SFDP](solana/SFDP.md)
     - [Ecosystem Contributor Priority Queue](https://solana.org/faq#ecosystem_contributor_priority_queue_experimental)
   - [SF Server Program](https://solana.org/server-program)
-- [Staking](Staking.md)
+- [Staking](solana/Staking.md)
 - [SolDev: jobs, bounties, grants etc](https://www.soldev.app/)
 - [Solana Releases](https://github.com/solana-labs/solana/releases)
   - [Anza Release Schedule](https://github.com/anza-xyz/agave/wiki/v1.17-Release-Schedule)
@@ -35,33 +35,33 @@
   - 1 lamport is 0.000_000_001 sol.
   - 1 micro-lamport is 0.000_001 lamports.
   - 1 micro-lamport is 0.000_000_000_000_001 Sols.
-- [Transaction Info](Solana-Transactions.md#info)
+- [Transaction Info](solana/Solana-Transactions.md#info)
 
-# [Install](Install-Solana.md)
+# [Install](solana/Install-Solana.md)
 
 # Components
 
-## [Cluster](Solana-Cluster.md)
+## [Cluster](solana/Solana-Cluster.md)
 
-## [Validator](Validator.md)
+## [Validator](solana/Validator.md)
 
-- [Ledger](Solana-Validator-Ledger.md)
-- [Test Validator](Test-Validator.md)
+- [Ledger](solana/Solana-Validator-Ledger.md)
+- [Test Validator](solana/Test-Validator.md)
 
-## [RPC Node](RPC-Node.md)
+## [RPC Node](solana/RPC-Node.md)
 
-## [Wallet](Solana-Wallet.md)
+## [Wallet](solana/Solana-Wallet.md)
 
-## [Solana Bigtable](Solana-Bigtable.md)
+## [Solana Bigtable](solana/Solana-Bigtable.md)
 
-# [Dev Resources](Solana-Development-Resources.md)
+# [Dev Resources](solana/Solana-Development-Resources.md)
 
-- [SPL Tokens](SPL-Tokens.md)
-- [On-chain Programs](Solana-On‐Chain-Programs.md)
-- [Transactions](Solana-Transactions.md)
-  - [Calculate Transaction Calculate Transaction Fees and Compute Units](Solana-Transactions.md#calculate-transaction-fees-and-compute-units)
+- [SPL Tokens](solana/SPL-Tokens.md)
+- [On-chain Programs](solana/Solana-On‐Chain-Programs.md)
+- [Transactions](solana/Solana-Transactions.md)
+  - [Calculate Transaction Calculate Transaction Fees and Compute Units](solana/Solana-Transactions.md#calculate-transaction-fees-and-compute-units)
 
-# [How To](Solana-How-To.md)
+# [How To](solana/Solana-How-To.md)
 
 # [Solana CLI](https://docs.solanalabs.com/cli/usage)
 
@@ -71,8 +71,8 @@
 - Configure Solana CLI to work with specific cluster: `solana config set -[um|ut|ud|ul]`
 - Download the confirmed block: `solana block <slot>`
 - Work with keypairs: `solana-keygen --help`.
-- [Cluster CLI](Solana-Cluster.md#cli)
-- [Ledger CLI](Solana-Validator-Ledger.md#cli)
-- [Transactions CLI](Solana-Transactions.md#cli)
-- [Wallet CLI](Solana-Wallet.md#cli)
-- [SPL Tokens CLI](SPL-Tokens.md#spl-tokens-cli)
+- [Cluster CLI](solana/Solana-Cluster.md#cli)
+- [Ledger CLI](solana/Solana-Validator-Ledger.md#cli)
+- [Transactions CLI](solana/Solana-Transactions.md#cli)
+- [Wallet CLI](solana/Solana-Wallet.md#cli)
+- [SPL Tokens CLI](solana/SPL-Tokens.md#spl-tokens-cli)

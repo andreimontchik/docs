@@ -1,6 +1,6 @@
-# [Solana](solana/Solana.md)
+# [Solana](Solana.md)
 
-# [Linux](linux/Linux.md)
+# [Linux](Linux.md)
 
 # [Rust](Rust.md)
 

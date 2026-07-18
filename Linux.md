@@ -19,13 +19,13 @@
 - List of units: `sudo systemctl list-units  --all`
   - Mark inactive units: `sudo systemctl list-units --all --state=inactive`
 
-# [CPU](CPU.md)
+# [CPU](linux/CPU.md)
 
-# [Memory](Memory.md)
+# [Memory](linux/Memory.md)
 
-# [Disk](Disk.md)
+# [Disk](linux/Disk.md)
 
-# [Network](Network.md)
+# [Network](linux/Network.md)
 
 # Navigation and Search
 
