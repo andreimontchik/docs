@@ -19,7 +19,7 @@
 - [Shyft Translator to review transactions](https://translator.shyft.to/)
 - [Grafana Solana Cluster Telementry](https://metrics.solana.com:3000/d/monitor-edge/cluster-telemetry?orgId=1)
 - [Grafana RPC Replay](https://metrics.solana.com:3000/d/KCLhfAbMz/replay?orgId=1&var-datasource=HsKEnOt4z&var-testnet=mainnet-beta&var-hostid=mr1hDW1GR4ZwQCW8L3p1yfGDd1153rCv4xQUtDewzu6&from=now-24h&to=now)
-- [Chronograf - unavailable](Chronograf)
+- [Chronograf](Chronograf.md)
 - [Validator Metrics](Validator#metrics)
 - [RPC Node Metrics](RPC-Node#metrics)
 
