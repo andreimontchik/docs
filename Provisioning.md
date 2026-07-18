@@ -90,12 +90,14 @@
      1. Check the SSH server version: `sshd -V 2>&1 | grep "OpenSSH"`
 1. Disable root access:
    1. Create the `99-sandbox-init.conf` file in the `/etc/ssh/sshd_config.d/` directory.
+
    ```
    PermitRootLogin no
    ```
 
    1. Restart SSH server: `sudo systemctl restart ssh`.
    1. Confirm that root cannot login.
+
 1. Enable SSH key authentication.
    1. Propagate the Workstation's SSH key: run `ssh-copy-id andrei@<server ip>` on Workstation.
    1. Add the `PubkeyAuthentication yes` parameter to the `/etc/ssh/sshd_config.d/99-sandbox-init.conf` file.
@@ -108,4 +110,4 @@
 1. [Install and configure fail2ban](../../public/wiki/Network#fail2ban)
 1. [Install and configure git](../../public/wiki/git)
 1. [Install Rust](../../public/wiki/rust)
-1. [Install Solana CLI](../../research/wiki/install-solana)
+1. [Install Solana CLI](solana/Install-Solana.md)

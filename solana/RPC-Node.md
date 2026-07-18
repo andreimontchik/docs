@@ -18,7 +18,7 @@
 
 # Operate
 
-- [Install and Configure](install-and-configure-rpc)
+- [Install and Configure](Install-and-Configure-RPC.md)
 - Run: `rm -f nohup.log; nohup ~/src/research/bin/rpc_run.sh &`
 
 ## Metrics
