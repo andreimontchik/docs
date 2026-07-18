@@ -18,4 +18,4 @@
 * Transfer Tokens: `spl-token transfer -um --owner <SENDER_WALLET_KEYPAIR> --from <SENDER_TOKEN_ACCOUNT> <TOKEN_MINT_ADDRESS> <TOKEN_AMOUNT> <RECIPIENT_WALLET_ADDRESS or RECIPIENT_TOKEN_ACCOUNT>`
 * Wrap Tokens: `spl-token wrap -um --fee-payer <WALLET_KEYPAIR> <AMOUNT> -- <WALLET_KEYPAIR>`
 * Unwrap Tokens: `spl-token unwrap -um --owner <WALLET_KEYPAIR>`
-* [Solana Wallet CLI](Solana-Wallet)
+* [Solana Wallet CLI](Solana-Wallet.md)

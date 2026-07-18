@@ -11,4 +11,4 @@
   * Verify the wallet address: `solana-keygen verify <PUBKEY> <WALLET_KEYPAIR_FILE>`
   * Check the balance: `solana balance -um <PUBKEY>`
   * Transfer SOL: `solana transfer --from <WALLET_KEYPAIR_FILE> --fee-payer <PAYER_KEYPAIR_FILE> -um <RECIPIENT_ADDRESS> <SOL_AMOUNT>`
-  * [SPL Tokens CLI](SPL-Tokens#spl-tokens-cli)
+  * [SPL Tokens CLI](SPL-Tokens.md#spl-tokens-cli)

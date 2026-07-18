@@ -109,7 +109,7 @@ net.core.wmem_default = 134217728
 net.core.wmem_max = 134217728
 ```
 
-## [Increase number of allowed open file descriptors](Disk#increase-number-of-allowed-open-file-descriptors)
+## [Increase number of allowed open file descriptors](Disk.md#increase-number-of-allowed-open-file-descriptors)
 
 # CLI
 * Show list of all NICs: `ip a` or `ifconfig`

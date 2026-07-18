@@ -9,7 +9,7 @@
 # Links
 
 - [RPC Clients](Solana-Development-Resources.md#solana-clients)
-- [RPC providers](DeFI#rpc-providers)
+- [RPC providers](../DeFi.md#rpc-providers)
 - Public Endpoints
   - Mainnet-beta: https://api.mainnet-beta.solana.com
   - Testnet: https://api.testnet.solana.com
@@ -25,17 +25,17 @@
 
 - [Solana Grafana Telemetry](https://metrics.solana.com:3000/d/monitor-edge/cluster-telemetry?orgId=1&var-datasource=HsKEnOt4z&var-testnet=mainnet-beta&var-hostid=mr1hDW1GR4ZwQCW8L3p1yfGDd1153rCv4xQUtDewzu6&from=now-1h&to=now)
 - [Stakeonomy Validator Dashboard](https://metrics.stakeconomy.com/d/f2b2HcaGz/solana-community-validator-dashboard?orgId=1&refresh=1m&var-pubkey=mr1hDW1GR4ZwQCW8L3p1yfGDd1153rCv4xQUtDewzu6&var-server=&var-inter=1m&var-netif=&var-version=)
-- [Validator Metrics](Validator#metrics)
-- [Cluster Metrics](Solana-Cluster#metrics)
+- [Validator Metrics](Validator.md#metrics)
+- [Cluster Metrics](Solana-Cluster.md#metrics)
 
 # How To
 
 - Restart fresh:
-  1. Wipe the ledger, accounts and snapshots directories. Use [rpc_wipe.sh](../../research/blob/main/bin/rpc_wipe.sh) as reference.
-  1. [Download](solana-Validator-Ledger#manually-download-snapshots-from-third-party) the latest available full and incremental snapshots and place them in the snapshots directory. The directory should have been wiped empty.
-  1. Startup RPC. It should restore ledger from the downloaded snapshots and then request and replay the latest shreds to catch up. [The startup sequence](Validator#validator-startup-sequence).
-- [Validator How To](Validator#how-to)
+  1. Wipe the ledger, accounts and snapshots directories. Use [rpc_wipe.sh](../../arb/bin/rpc_wipe.sh) as reference.
+  1. [Download](Solana-Validator-Ledger.md#manually-download-snapshots-from-third-party) the latest available full and incremental snapshots and place them in the snapshots directory. The directory should have been wiped empty.
+  1. Startup RPC. It should restore ledger from the downloaded snapshots and then request and replay the latest shreds to catch up. [The startup sequence](Validator.md#validator-startup-sequence).
+- [Validator How To](Validator.md#how-to)
 
 # RPC CLI
 
-- [Validator CLI](Validator#cli)
+- [Validator CLI](Validator.md#cli)

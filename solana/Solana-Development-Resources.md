@@ -9,7 +9,7 @@
 - [Solana Runtime](https://docs.solanalabs.com/validator/runtime)
 - [Native Solana Programs](https://docs.solanalabs.com/runtime/programs)
 - [Stake-weighted Quality of Service a.k.a SWQoS](https://solana.com/developers/guides/advanced/stake-weighted-qos)
-- [SPL Tokens](../SPL-Tokens.md#docs)
+- [SPL Tokens](SPL-Tokens.md#docs)
 
 # Source code
 
@@ -33,7 +33,7 @@
 1. Obtain the localnet wallet pubkey: `solana-keygen pubkey ~/.config/solana/wallet.localnet.json`.
 1. Check the new pubkey balance: `solana balance <PUBKEY>`.
 1. If needed, airdrop SOL to the localnet wallet pubkey: `solana airdrop 10 <PUBKEY>`.
-1. Install and configure [VSCode](../../public/wiki/vscode)
+1. Install and configure [VSCode](../VSCode.md)
 
 # [Solana Transactions](Solana-Transactions.md)
 
@@ -43,7 +43,7 @@
 
 # [Solana Wallet](Solana-Wallet.md)
 
-# [SPL Tokens](../SPL-Tokens.md)
+# [SPL Tokens](SPL-Tokens.md)
 
 # Solana Clients
 

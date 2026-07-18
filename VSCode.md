@@ -82,7 +82,7 @@ Create Launch configuration to run application that uses the library. Example:
 ```
 
 # Support Typescript
-1. Install and configure [NodeJS and TypeScript](JavaScript/#nodejs).
+1. Install and configure [NodeJS and TypeScript](languages/JavaScript.md#nodejs).
 1. Install Prettier: `npm install --save-dev prettier`
 1. Install the Prettier VSCode extension, required for formatting the TypeScript files.
 1. Add the following to settings.json: 

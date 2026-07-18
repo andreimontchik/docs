@@ -51,4 +51,4 @@
        }]
    }'
   ```
-* [Solana Transactions](Solana-Transactions#cli)
+* [Solana Transactions](../solana/Solana-Transactions.md#cli)

@@ -27,13 +27,13 @@
 
 # Components
 
-## [Ledger](Solana-Validator-Ledger)
+## [Ledger](Solana-Validator-Ledger.md)
 
-- [Solana Ledger Tool](Solana-Validator-Ledger#solana-ledger-tool)
+- [Solana Ledger Tool](Solana-Validator-Ledger.md#solana-ledger-tool)
 
 ## [Geyser Plugin](Geyser-Plugin.md)
 
-## [Test Validator](test-validator)
+## [Test Validator](Test-Validator.md)
 
 # Operate
 
@@ -65,14 +65,14 @@
 - [Validators.app - Validator metrics](https://www.validators.app/)
   - [Validator Concentration](https://www.validators.app/data-centers?locale=en&network=mainnet&sort_by=data_center)
 - [Stakeonomy Solana Monitoring Tool](https://github.com/stakeconomy/solanamonitoring?tab=readme-ov-file)
-- [RPC Node Metrics](RPC-Node#metrics)
-- [Cluster Metrics](Solana-Cluster#metrics)
+- [RPC Node Metrics](RPC-Node.md#metrics)
+- [Cluster Metrics](Solana-Cluster.md#metrics)
 
 # How To
 
-- Tweak Validator logging: `solana-validator --ledger <LEDGER_DIR> set-log-filter "solana=<LOG_LEVEL>"`. Example: [rpc_adjust_logging.sh](../../research/bin/rpc_adjust_log.sh)
-- [Ledger How To](solana-Validator-Ledger#how-to)
-  - [Manually Download snapshots from third party](solana-Validator-Ledger#manually-download-snapshots-from-third-party)
+- Tweak Validator logging: `solana-validator --ledger <LEDGER_DIR> set-log-filter "solana=<LOG_LEVEL>"`. Example: `rpc_adjust_logging.sh`
+- [Ledger How To](Solana-Validator-Ledger.md#how-to)
+  - [Manually Download snapshots from third party](Solana-Validator-Ledger.md#manually-download-snapshots-from-third-party)
 
 # CLI
 
@@ -85,6 +85,6 @@
   - Startup parameters: `grep -B1 -A61 "Starting validator with" <VALIDATOR_LOG>`
   - Creation of snapshot directory: `egrep "Creating bank snapshot for slot | bank serialize took" <VALIDATOR_LOG>`
   - Creation of snapshot archive, either full of incremental: `egrep "Generating snapshot archive for slot | Successfully created" <VALIDATOR_LOG>`
-- [RPC CLI](RPC-Node#rpc-cli)
-- [The Ledger CLI](Solana-Validator-Ledger#cli)
-- [The Cluster CLI](Solana-Cluster#cli)
+- [RPC CLI](RPC-Node.md#rpc-cli)
+- [The Ledger CLI](Solana-Validator-Ledger.md#cli)
+- [The Cluster CLI](Solana-Cluster.md#cli)

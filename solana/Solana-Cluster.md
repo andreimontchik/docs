@@ -20,8 +20,8 @@
 - [Grafana Solana Cluster Telementry](https://metrics.solana.com:3000/d/monitor-edge/cluster-telemetry?orgId=1)
 - [Grafana RPC Replay](https://metrics.solana.com:3000/d/KCLhfAbMz/replay?orgId=1&var-datasource=HsKEnOt4z&var-testnet=mainnet-beta&var-hostid=mr1hDW1GR4ZwQCW8L3p1yfGDd1153rCv4xQUtDewzu6&from=now-24h&to=now)
 - [Chronograf](Chronograf.md)
-- [Validator Metrics](Validator#metrics)
-- [RPC Node Metrics](RPC-Node#metrics)
+- [Validator Metrics](Validator.md#metrics)
+- [RPC Node Metrics](RPC-Node.md#metrics)
 
 # CLI
 
@@ -32,7 +32,7 @@
 - Get the Cluster Validators: `solana validators --um`. The delinquent stake is at the bottom.
   - Show delinquent validators: `solana validators -um --keep-unstaked-delinquents`
 - Get the leader schedule: `solana leader-schedule -um`
-- [The Validator CLI](Validator#cli)
-- [The Ledger CLI](Solana-Validator-Ledger#cli)
+- [The Validator CLI](Validator.md#cli)
+- [The Ledger CLI](Solana-Validator-Ledger.md#cli)
 - [Dev CLI](Solana-Development-Resources.md#cli)
   - [LUTs](Solana-Development-Resources.md#luts)

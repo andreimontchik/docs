@@ -12,9 +12,9 @@
      1. Configure the `Copy on Select` for mouse: Preferences -> Global -> check `Automatically copy text to clipboard when selecting`.
      1. Configure theme: Preferences -> Appearance -> Theme variant -> Dark. Also check the `Use a wide handle for splitters` checkbox.
 1. Install htop: `sudo apt install htop`
-1. [Install iftop](../../public/wiki/network#iftop)
-1. [Install net-tools](../../public/wiki/network#net-tools)
-1. [Install iostat](../../public/wiki/disk#iostat)
+1. [Install iftop](linux/Network.md)
+1. [Install net-tools](linux/Network.md)
+1. [Install iostat](linux/Disk.md)
 1. Install curl: `sudo apt install curl`
 
 # Workstation
@@ -59,16 +59,16 @@
       - keep the password empty
    1. Add pubkey to GitHub account: https://github.com/settings/keys
    1. Restart terminal session before using the newly created and registered keypair.
-1. [Install Git](../../public/wiki/Git#install).
-1. [Increase swap file](../../public/wiki/memory#swap-file) in case if short on memory.
+1. [Install Git](Git.md#install).
+1. [Increase swap file](linux/Memory.md) in case if short on memory.
 1. [Install Rust and set up Solana Dev env-t](solana/Solana-Development-Resources.md#setup-local-dev-env-t)
-1. [Install VS Code](../../public/wiki/vscode)
+1. [Install VS Code](VSCode.md#install)
 
 # Server
 
 1. Update the `root` password.
-1. [Switch to UTC](../../public/wiki/linux#other)
-1. Complete the [Common Setup](Provisioning#common-setup) steps.
+1. [Switch to UTC](Linux.md#other)
+1. Complete the [Common Setup](Provisioning.md#common-setup) steps.
 1. Check out the host hardware:
    - CPU: `cat /proc/cpuinfo | grep "model name" | head -1`
    - Memory: `cat /proc/meminfo | grep "Mem"`
@@ -78,11 +78,11 @@
      1. Install the `ethtool`: `sudo apt install ethtool`
      1. `sudo ethtool <NIC> | grep Speed`
 1. Confirm that the system clock is synchronized: `timedatectl status`. If not install ntp.
-1. [Create the `andrei` user and add it to the `sudo` and `systemd-journal` groups](../../public/wiki/Linux#users-and-groups)
+1. [Create the `andrei` user and add it to the `sudo` and `systemd-journal` groups](Linux.md#users-and-groups)
 1. Re-login as `andrei`.
 1. Restrict user access to specific users or groups.
 1. Install or update SSH agent:
-   - [Install SSH](../../public/wiki/linux#ssh)
+   - [Install SSH](Linux.md#ssh)
    - Update SSH:
      1. Check the SSH server version: `sshd -V 2>&1 | grep "OpenSSH"`
      1. `sudo apt install --only-upgrade openssh-server`
@@ -103,11 +103,11 @@
    1. Add the `PubkeyAuthentication yes` parameter to the `/etc/ssh/sshd_config.d/99-sandbox-init.conf` file.
    1. Restart SSH server: `sudo systemctl restart ssh`.
    1. Confirm that the SSH key authentication works.
-1. [Configure the ufw firewall](../../public/wiki/network#firewall).
+1. [Configure the ufw firewall](linux/Network.md).
 1. Disable password authentication:
    1. Add the `PasswordAuthentication no` parameter to the `/etc/ssh/sshd_config.d/99-sandbox-init.conf` file.
    1. Restart SSH server: `sudo systemctl restart ssh`.
-1. [Install and configure fail2ban](../../public/wiki/Network#fail2ban)
-1. [Install and configure git](../../public/wiki/git)
-1. [Install Rust](../../public/wiki/rust)
+1. [Install and configure fail2ban](linux/Network.md)
+1. [Install and configure git](Git.md)
+1. [Install Rust](languages/Rust.md#install)
 1. [Install Solana CLI](solana/Install-Solana.md)

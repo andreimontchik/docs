@@ -3,7 +3,7 @@
 - [Snapshots explanation](https://solana.stackexchange.com/questions/1051/what-is-an-exact-definition-of-a-snapshot-on-solana/1064#1064)
 - [RocksDB](https://github.com/facebook/rocksdb/wiki)
 - Historical Data
-  - [Solana BigTable](solana-bigtable)
+  - [Solana BigTable](Solana-Bigtable.md)
   - [Triton Old Faithful](https://old-faithful.net/)
   - [Epoch Information](https://api.stakewiz.com/all_epochs_history)
   - [Google Cloud](https://console.cloud.google.com/storage/monitoring?project=mainnet-beta&pli=1)
@@ -45,8 +45,8 @@ Additionally, snapshots are useful for analytics purposes to quickly load a coll
 
 ## Install
 
-1. [Increase swap file](../../public/wiki/memory#swap-file).
-1. [Increase the memory mapped files limit](../../public/wiki/memory#swap-file).
+1. [Increase swap file](../linux/Memory.md).
+1. [Increase the memory mapped files limit](../linux/Memory.md).
 1. [Install and configure Solana](Install-Solana.md) to install the `solana-ledger-tool`.
 
 # How To
@@ -79,7 +79,7 @@ Additionally, snapshots are useful for analytics purposes to quickly load a coll
 
 ## Restore ledger state from snapshot
 
-1. [Download a snapshot](Solana-Validator-Ledger#manually-download-snapshots-from-another-validator)
+1. [Download a snapshot](Solana-Validator-Ledger.md#manually-download-snapshots-from-another-validator)
 1. Run solana-ledger-tool command with the following params. It will build the ledger state from full snapshot. If there are incremental snapshots in the `snapshots` directory, the tool will process account updates from them as well.
    ```
    solana-ledger-tool verify \
@@ -98,15 +98,15 @@ Additionally, snapshots are useful for analytics purposes to quickly load a coll
   - [Debugging Consensus Failures](https://github.com/solana-labs/solana/wiki/Debugging-Consensus-Failures)
   - [Restoring Missing Blocks](https://github.com/solana-labs/solana-bigtable#restoring-missing-blocks)
 
-1. Optional for now: Obtain an access to the [Solana Bigtable](Solana-Bigtable).
-1. [Access the Solana Bigtable bucket](Solana-Bigtable#access-the-solana-bigtable-bucket).
+1. Optional for now: Obtain an access to the [Solana Bigtable](Solana-Bigtable.md).
+1. [Access the Solana Bigtable bucket](Solana-Bigtable.md#access-the-solana-bigtable-bucket).
 1. Use the current slot from [Solana Explorer](https://explorer.solana.com/?cluster=mainnet) to search for the most recent epoch archive containing rocksdb.tzr.zst.
 1. Download the `rocksdb.tar.zst`. Example `nohup curl -C - -O https://storage.googleapis.com/mainnet-beta-ledger-us-ny5/278201635/rocksdb.tar.zst &`
 1. Extract the `rocksdb.tar.zst` archive in the Ledger's `ledger` directory. Example `nohup tar --use-compress-program=unzstd -xvf rocksdb.tar.zst -C /mnt/ledger &` .
 1. Download the first `snapshot-xxx.tar.zst` hourly snapshot archive that is within the slot range outlined in the `bounds.txt`file. Example: `curl -O https://storage.googleapis.com/mainnet-beta-ledger-us-ny5/261781166/hourly/snapshot-261835693-EdoRtXVBzbtMszs2vwcmTzFmQ1ACYj5oYPqDifFr7QE3.tar.zst
 `
 1. Place the downloaded snapshot in the Ledger's `snapshots` directory.
-1. Run the [slt_replay.sh](../blob/main/bin/slt_replay.sh) script. It will restore Ledger's bank from the downloaded snapshot and replay shreds from the extracted rocksdb archive files residing in the `ledger` directory.
+1. Run the [slt_replay.sh](../../arb/bin/slt_replay.sh) script. It will restore Ledger's bank from the downloaded snapshot and replay shreds from the extracted rocksdb archive files residing in the `ledger` directory.
 
 # CLI
 

@@ -7,7 +7,7 @@
 * [Examples](https://solana.com/docs/clients/javascript-reference)
 
 # [Installation](https://solana.com/docs/clients/javascript#installation)
-1. [Install NodeJS](../../public/wiki/nodejs#installation)
+1. [Install NodeJS](../languages/JavaScript.md#nodejs)
 1. Enable [Corepack](https://nodejs.org/api/corepack.html#corepack): `corepack enable`
 1. Enable Corepack, that will make Yarn available: `corepack enable`
 1. Install the Solana Web3.js client: ` yarn add @solana/web3.js`

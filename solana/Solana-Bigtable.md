@@ -40,4 +40,4 @@
    * New York: [mainnet-beta-ledger-us-ny5](https://console.cloud.google.com/storage/browser/mainnet-beta-ledger-us-ny5)
    * Frankfurt: [mainnet-beta-ledger-europe-fr2](https://console.cloud.google.com/storage/browser/mainnet-beta-ledger-europe-fr2)
    * Singapore: [mainnet-beta-ledger-asia-sg1](https://console.cloud.google.com/storage/browser/mainnet-beta-ledger-asia-sg1)
-## [Ledger How To](Solana-Validator-Ledger#how-to)
+## [Ledger How To](Solana-Validator-Ledger.md#how-to)
