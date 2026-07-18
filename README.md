@@ -16,6 +16,4 @@
 
 # [StatsD](statsd.md)
 
-# [Graphite](Graphite.md)
-
 # [Programming Concepts](Programming-Concepts.md)
