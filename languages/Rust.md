@@ -28,7 +28,7 @@
 * Show dependencies: `cargo tree`
 
 ## Format    
-1. [Configure formatting in the `rustfmt.toml`](vscode#support-rust)
+1. [Configure formatting in the `rustfmt.toml`](../VSCode.md#support-rust)
 1. Run `cargo +nightly fmt --all`
 
 ## [Test](https://doc.rust-lang.org/book/ch11-00-testing.html)

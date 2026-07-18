@@ -14,11 +14,11 @@
 
 # Programming Languages
 
-## [Rust](Rust.md)
+## [Rust](languages/Rust.md)
 
-## [JavaScript](JavaScript.md)
+## [JavaScript](languages/JavaScript.md)
 
-## [Python](Python.md)
+## [Python](languages/Python.md)
 
 # Programming Concepts
 
