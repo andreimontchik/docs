@@ -4,18 +4,22 @@
 
 # [Linux](Linux.md)
 
-# [Rust](Rust.md)
-
 # [VSCode](VSCode.md)
 
 # [Git](Git.md)
-
-# [JavaScript](JavaScript.md)
-
-# [Python](Python.md)
 
 # [Docker](Docker.md)
 
 # [StatsD](statsd.md)
 
-# [Programming Concepts](Programming-Concepts.md)
+# Programming Languages
+
+## [Rust](Rust.md)
+
+## [JavaScript](JavaScript.md)
+
+## [Python](Python.md)
+
+# Programming Concepts
+
+### [Memory Usage - Stack vs Heap](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html#the-stack-and-the-heap)
