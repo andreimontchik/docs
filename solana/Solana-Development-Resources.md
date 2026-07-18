@@ -58,7 +58,7 @@
   - [Send transactions to Leader directly](https://docs.rs/solana-client/latest/solana_client/tpu_client/index.html)
 - [Banks Client](https://github.com/anza-xyz/agave/blob/master/banks-client/src/lib.rs)
 
-# [Geyser Plugin](../Geyser-Plugin.md)
+# [Geyser Plugin](Geyser-Plugin.md)
 
 # CLI
 

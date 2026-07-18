@@ -31,7 +31,7 @@
 
 - [Solana Ledger Tool](Solana-Validator-Ledger#solana-ledger-tool)
 
-## [Geyser Plugin](Geyser-Plugin)
+## [Geyser Plugin](Geyser-Plugin.md)
 
 ## [Test Validator](test-validator)
 
